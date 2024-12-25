@@ -1,16 +1,18 @@
-// This file can be replaced during build by using the `fileReplacements` array.
-// `ng build` replaces `environment.ts` with `environment.prod.ts`.
-// The list of file replacements can be found in `angular.json`.
-
 export const environment = {
-  production: false
+  production: false,
+  apiUrl2: 'http://localhost:8000/api/v1',
+  apiUrl: 'https://adwere-backend.onrender.com/api/v1',
+  mnotifyApiKey: 'zI6BH4IdqcaRdg3JaGx7KI1iJ',
+  mnotifyEndPoint: 'https://api.mnotify.com/api/sms/quick',
+  senderPhone: '0591971286',
+  firebase: {
+    "projectId": "adwere-d3d14",
+    "appId": "1:4978220684:web:941b984f4fbc323d7465a9",
+    "storageBucket": "adwere-d3d14.appspot.com",
+    "apiKey": "AIzaSyDVtc55IrX-woJz0jov0BoiPaUCXxFYADk",
+    "authDomain": "adwere-d3d14.firebaseapp.com",
+    "messagingSenderId": "4978220684",
+    "measurementId": "G-7JMPPS58JZ"
+  },
+  adminPassword: '12345'
 };
-
-/*
- * For easier debugging in development mode, you can import the following file
- * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
- *
- * This import should be commented out in production mode because it will have a negative impact
- * on performance if an error is thrown.
- */
-// import 'zone.js/plugins/zone-error';  // Included with Angular CLI.
