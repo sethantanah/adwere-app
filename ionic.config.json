@@ -1,0 +1,7 @@
+{
+  "name": "adwere",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
